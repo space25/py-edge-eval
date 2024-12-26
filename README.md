@@ -64,10 +64,7 @@ Please cite the following if you found this project useful:
 
 ```Bash
 # Install dependencies
-pip install -r requirements.txt
-
-# install cv2 (e.g. use pip)
-pip install opencv-python
+pip --no-cache-dir install cityscapesscripts matplotlib mat73 numpy scipy prettytable pymatreader opencv-python opencv-contrib-python scikit-image
 
 # Option 1. install without cloning the project (only tested on ubuntu with python 3.8)
 pip install pyEdgeEval
